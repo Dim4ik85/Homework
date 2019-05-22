@@ -1,0 +1,60 @@
+
+div{
+    font-size: 26px;
+}
+b{
+    color: darkblue;
+}
+
+/*div * {
+    color: forestgreen;
+}
+*/
+div b {
+    color: chocolate;
+
+}
+.title {
+    font-size: 40px;
+}
+.color-yellow{
+    color: yellow;
+}
+.title {
+    text-transform: uppercase; /*  надо посмотреть значение */
+}
+.bodyBackground {
+    background-color: gray;
+    background-image: url('img/bg/bg.jpg');
+    background-repeat: no-repeat; 
+    /*background-repeat: repeat-x; */
+    /* no-repeat no-repeat-y repeat-x*/ 
+    background-position: 100px 30px;
+    background-position-y: 50px;
+    background-position-x: 10px;
+    background-size: contain;
+    /* cover contain   сузить картинку*/
+
+     background:  forestgreen url('img/bg/bg.jpg') 20px 20px no-repeat;
+
+
+     background: url('img/bg/bg.jpg') top left,
+     url('img/bg/bg.jpg') top right,  /* url('img/bg/bg.jpg') 100% 0, */
+     url('img/bg/bg.jpg') bottom left,
+     url('img/bg/bg.jpg') bottom right;
+     background-repeat: no-repeat;
+
+}
+
+.background-fixed {
+    background-image: url('img/bg/bg.jpg');
+    background-repeat: no-repeat;
+   /* background-attachment: fixed; */
+
+
+
+}
+
+#firstTitle{
+    
+}
